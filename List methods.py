@@ -1,0 +1,28 @@
+a=[1,5,2,4,8,]
+a.append(10)
+print(a)
+a.extend([7,9])
+print(a)
+a.insert(1,0)
+print(a)
+a.remove(5)
+print(a)
+a.pop(4)
+print(a)
+a.sort()
+print(a)
+# a.clear()
+# print(a)
+# a.index(4)
+# print(a)
+a=[1,5,2,4,8]
+num=a.copy()
+print("copied list:",num)
+mylist=[3,4,5,"welcome","priya",[8,9,7,8],8,9]
+
+x=mylist[5].count(8)
+print(x)
+mylist.insert(1,43)
+print(mylist)
+mylist.reverse()
+print(mylist)
